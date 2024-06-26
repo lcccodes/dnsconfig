@@ -22,22 +22,22 @@ This outlines some basics about DNS operations. Remember that DNS translates bet
 - Part 3: About CNAME records
 - Part 4: Where to find Root Hints
   
-<h2>Deployment and Configuration Steps</h2>
+<h2>Navigation and Configuration</h2>
 
-<b>Part 1: Setup of two VMs (Windows server and client) on the same region and vNet.</b>
+<b>Part 1: Creating and observing A-records</b>
 <p>
 
   ![image](https://github.com/lcccodes/configure-ad/assets/171904823/84e26543-c927-4985-ab01-1822238f46d2)
 
 </p>
 <p>
-Once you've got your server and client machines on the same vNet within the same region, your Resource Group page will show all of the associated resources which were automatically created with these [above]. These include the vNICs and Network Security Groups.
+A-records are the trail that gets left behind in the DNS cache after it resolves various addresses. In this sense, it's basically a dictionary of internet addresses.
 
 </p>
 <br />
 
 
-<b>Part 2: Checking connectivity.</b>
+<b>Part 2: About the local DNS cache</b>
 <p>
 
   ![image](https://github.com/lcccodes/configure-ad/assets/171904823/2f645421-5f75-4d02-ab86-41b9cbdefea0)
