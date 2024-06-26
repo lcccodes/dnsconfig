@@ -33,9 +33,6 @@ This outlines some basics about DNS operations.<br />
 <p>
 Once you've got your server and client machines on the same vNet within the same region, your Resource Group page will show all of the associated resources which were automatically created with these [above]. These include the vNICs and Network Security Groups.
 
-
-![image](https://github.com/lcccodes/configure-ad/assets/171904823/ecbac8f6-e776-4af9-a77d-49ba57fa5551)
-
 </p>
 <br />
 
