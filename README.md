@@ -20,7 +20,7 @@ This outlines some basics about DNS operations.<br />
 - Part 1: Creating and Observing A-records
 - Part 2: About the local DNS cache
 - Part 3: About CNAME records
-
+- Part 4: Where to find Root Hints
   
 <h2>Deployment and Configuration Steps</h2>
 
