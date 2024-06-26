@@ -47,11 +47,12 @@ Below: Changing an A-record in the DNS manager. (This is also where you can crea
 <b>Part 2: About the local DNS cache</b>
 <p>
 
-  ![image](https://github.com/lcccodes/configure-ad/assets/171904823/2f645421-5f75-4d02-ab86-41b9cbdefea0)
+![image](https://github.com/lcccodes/dnsconfig/assets/171904823/1dd7fe21-9c98-4103-ac6b-3385b826f481)
+
 
 </p>
 <p>
-Through Windows Defender Firewall (Advanced Settings) on the server, you'll need to first "enable" incoming ICMP traffic before you can ping the server from the client. Here you only need to enable the two lines for "Echo Request."
+To see what's in your local DNS cache, use the command line interface (CLI) and type <b>ipconfig /displaydns</b>.
 </p>
 <br />
 
