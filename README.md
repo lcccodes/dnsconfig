@@ -52,7 +52,7 @@ Below: Changing an A-record in the DNS manager. (This is also where you can crea
 
 </p>
 <p>
-To see what's in your local DNS cache, use the command line interface (CLI) and type <b>ipconfig /displaydns</b>.
+To see what's in your local DNS cache, use the command line interface (CLI) and type <b>ipconfig /displaydns</b>. If you suspect that the IP of a resource on the network may have changed, you might want to clear your cache using <b>ipconfig /flushdns</b>. This is harmless to do and it will just mean that your computer will need to consult for a brand new DNS record the next time it wants to call up a specific address. 
 </p>
 <br />
 
