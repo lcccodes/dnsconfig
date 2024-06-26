@@ -52,7 +52,7 @@ Through Windows Defender Firewall (Advanced Settings) on the server, you'll need
 <br />
 
 
-<b>Part 3: Install Active Directory and promote to a domain controller.</b>
+<b>Part 3: Creating a CNAME record</b>
 <p>
 
 ![image](https://github.com/lcccodes/dnsconfig/assets/171904823/69e8d3fe-4e0d-4542-8114-76422d439455)
@@ -63,8 +63,7 @@ Through Windows Defender Firewall (Advanced Settings) on the server, you'll need
 [ABOVE]: After Active Directory installs, you should see a yellow exclamation mark in the upper right -- if you click on this, you'll see the option to "promte this to a domain controller." Click on that.
 </p>
 
-<p>
-[ABOVE]: This is where you'll need to choose "Add a new forest" and also choose the domain name for the controller. All users will belong to this domain, and from here on out, will need to login through the domain when logging into the domain controller and any joined clients.
+
 
 <b>Part 4: Where to Find Root Hints within Server Manager</b>
 </p>
