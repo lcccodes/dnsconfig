@@ -8,7 +8,8 @@ This is just a few basics about DNS operations, particularly using Windows Serve
 - Remote Desktop connections to a server and client
 - Active Directory Domain Services
 - Active Directory Users and Computers
-- Windows commands: <b>ipconfig /displaydns</b>, <b>ipconfig /flushdns</b>
+- <b>ipconfig /displaydns</b>
+- <b>ipconfig /flushdns</b>
 - Server Manager
 
 <h2>Operating Systems Used </h2>
