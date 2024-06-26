@@ -65,7 +65,7 @@ To see what's in your local DNS cache, use the command line interface (CLI) and 
 
 </p>
 <p>
-[ABOVE]: After Active Directory installs, you should see a yellow exclamation mark in the upper right -- if you click on this, you'll see the option to "promte this to a domain controller." Click on that.
+[ABOVE]: Similar navigation process as for creating or modifying an A-record. Right-click within the window and scroll down to create a new alias/CNAME. As you might expect with the concept of "alias," all that a CNAME does is convert one name to another name. So you could make a link to Wikipedia by using the name "learn" (although it wouldn't actually resolve).
 </p>
 
 
