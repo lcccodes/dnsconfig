@@ -35,7 +35,7 @@ A-records are the trail that gets left behind in the DNS cache after it resolves
 
 </p>
 <p>
-Below: Changing an A-record in the DNS manager. (This is also where you can create one). In Server Manager, go to "Tools" in the upper right, then scroll down to "DNS."
+Below: Changing an A-record in the DNS manager. (This is also where you can create one). In Server Manager, go to "Tools" in the upper right, then scroll down and click "DNS," then expand your domain name and click on "forward lookup zones."
 
 ![image](https://github.com/lcccodes/dnsconfig/assets/171904823/b889cdb2-4e61-46d2-a5f1-228acf8cbf1c)
 
