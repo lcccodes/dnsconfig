@@ -33,12 +33,6 @@ This outlines some basics about DNS operations.<br />
 <p>
 Once you've got your server and client machines on the same vNet within the same region, your Resource Group page will show all of the associated resources which were automatically created with these [above]. These include the vNICs and Network Security Groups.
 
-Deleting your resource group will automatically delete all resources contained within it. So if you need to delete only a single resource, it's best to do it from its own blade directly.
-<p>
-**NB: The first time I went through, it took me countless attempts to be able to validate a second VM if I was trying to put it in the same region and the same vNet. The only thing which eventually worked (after trying all kinds of combinations of which order I was creating each machine in) --- was waiting even longer before clicking "Review and Create." Even after it's clear that the same vNet used for the server is ready --- I deliberately added extra waiting time in case one of the other elements was still creating (I still don't know if that's what was going on). That's what finally worked.
-</p>
-You'll also need to change the settings of the vNIC for the server from dynamic to static. Go to the NIC from within the Network Settings on the server's blade and navigate from there.<p></p>
-
 
 ![image](https://github.com/lcccodes/configure-ad/assets/171904823/ecbac8f6-e776-4af9-a77d-49ba57fa5551)
 
