@@ -21,13 +21,6 @@ This outlines some basics about DNS operations.<br />
 - Part 2: About the local DNS cache
 - Part 3: About CNAME records
 
-
-<h2>Word of Caution: 3 Places You Might Get Stuck (see ** within steps below) </h2>
-
-- Validating the Second VM (Part 1)
-- Logging In to the Domain Controller (Part 3)
-- Logging in to the Client as a Domain Admin (Part 5)
-
 <h2>Before You Start</h2>
 
 <p>
