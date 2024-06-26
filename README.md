@@ -55,18 +55,14 @@ Through Windows Defender Firewall (Advanced Settings) on the server, you'll need
 <b>Part 3: Install Active Directory and promote to a domain controller.</b>
 <p>
 
-  ![image](https://github.com/lcccodes/configure-ad/assets/171904823/1ca6c8df-2291-4bb7-95ec-0194f36fcb72)
+![image](https://github.com/lcccodes/dnsconfig/assets/171904823/69e8d3fe-4e0d-4542-8114-76422d439455)
+
 
 </p>
 <p>
 [ABOVE]: After Active Directory installs, you should see a yellow exclamation mark in the upper right -- if you click on this, you'll see the option to "promte this to a domain controller." Click on that.
 </p>
-<p>
 
-![image](https://github.com/lcccodes/configure-ad/assets/171904823/aae613cc-efc0-41e9-afec-4f085257b34a)
-
-
-</p>
 <p>
 [ABOVE]: This is where you'll need to choose "Add a new forest" and also choose the domain name for the controller. All users will belong to this domain, and from here on out, will need to login through the domain when logging into the domain controller and any joined clients.
 
