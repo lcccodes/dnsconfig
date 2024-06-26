@@ -9,6 +9,7 @@ This is just a few basics about DNS operations, particularly using Windows Serve
 - Active Directory Domain Services
 - Active Directory Users and Computers
 - Windows command line 
+- Server Manager
 
 <h2>Operating Systems Used </h2>
 
