@@ -26,15 +26,18 @@ This is just a few basics about DNS operations, particularly using Windows Serve
 <h2>Navigation and Configuration</h2>
 
 <b>Part 1: Creating and observing A-records</b>
-<p>
 
-  ![image](https://github.com/lcccodes/configure-ad/assets/171904823/84e26543-c927-4985-ab01-1822238f46d2)
-
-</p>
 <p>
 A-records are the trail that gets left behind in the DNS cache after it resolves various addresses. In this sense, it's basically a dictionary of internet addresses. After you visit a site, a record of this resolution or translation process will be produced that will look something like this (with different domain names and IP addresses). As you can see below, the last line shows the A-record.
 
 ![image](https://github.com/lcccodes/dnsconfig/assets/171904823/90a9598e-2130-4352-bec7-d932b64fa811)
+
+
+</p>
+<p>
+Text.
+
+![image](https://github.com/lcccodes/dnsconfig/assets/171904823/b889cdb2-4e61-46d2-a5f1-228acf8cbf1c)
 
 
 </p>
