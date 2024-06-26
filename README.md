@@ -5,25 +5,22 @@ This outlines some basics about DNS operations.<br />
 <h2>Environments, Technologies and Languages Used</h2>
 
 - Microsoft Azure (Virtual Machines/Compute)
-- Remote Desktop connections to server and client
+- Remote Desktop connections to a server and client
 - Active Directory Domain Services
 - Active Directory Users and Computers
-- Windows command line prompts
-- PowerShell ISE (Windows native scripting language)
+- Windows command line 
 
 <h2>Operating Systems Used </h2>
 
 - Windows Server 2022
 - Windows 10 (22H2)
 
-<h2>Overview: Deployment and Configuration </h2>
+<h2>Overview</h2>
 
-- Part 1: Setup of two VMs (Windows server and client) on the same region and vNet.
-- Part 2: Checking connectivity.
-- Part 3: Install Active Directory and promote to a domain controller.
-- Part 4: Configure AD within Server Manager and add a Domain Admin
-- Part 5: Join the client to the domain.
-- Part 6: Adding multiple users with Powershell; Resetting Accounts and Passwords
+- Part 1: Creating and Observing A-records
+- Part 2: About the local DNS cache
+- Part 3: About CNAME records
+
 
 <h2>Word of Caution: 3 Places You Might Get Stuck (see ** within steps below) </h2>
 
