@@ -76,11 +76,12 @@ Through Windows Defender Firewall (Advanced Settings) on the server, you'll need
 <p>
 [ABOVE]: This is where you'll need to choose "Add a new forest" and also choose the domain name for the controller. All users will belong to this domain, and from here on out, will need to login through the domain when logging into the domain controller and any joined clients.
 
-**NB: ISSUES LOGGING BACK INTO THE DOMAIN CONTROLLER:
+<b>Part 4: Where to Find Root Hints</b>
 </p>
 <p>
   
-  ![image](https://github.com/lcccodes/configure-ad/assets/171904823/0b9dade2-1ac6-4e3a-9313-d9da0a0b9066)
+![image](https://github.com/lcccodes/dnsconfig/assets/171904823/403e47d5-61a8-496c-a2c8-d15fa5bf1c68)
+
 
 
 </p>
