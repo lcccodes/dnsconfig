@@ -1,5 +1,5 @@
 <h1>DNS Configuration in Azure </h1>
-This outlines some basics about DNS operations.<br />
+This outlines some basics about DNS operations. Remember that DNS translates between IP addresses and human-readable names. It works using TCP/UDP port 53.<br />
 
 
 <h2>Environments, Technologies and Languages Used</h2>
