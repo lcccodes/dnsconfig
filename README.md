@@ -76,7 +76,7 @@ Through Windows Defender Firewall (Advanced Settings) on the server, you'll need
 <p>
 [ABOVE]: This is where you'll need to choose "Add a new forest" and also choose the domain name for the controller. All users will belong to this domain, and from here on out, will need to login through the domain when logging into the domain controller and any joined clients.
 
-<b>Part 4: Where to Find Root Hints</b>
+<b>Part 4: Where to Find Root Hints within Server Manager</b>
 </p>
 <p>
   
@@ -86,11 +86,7 @@ Through Windows Defender Firewall (Advanced Settings) on the server, you'll need
 
 </p>
 <p>
-You'll need to keep the IP address for the COMPUTER NAME, but in the USERNAME field, you'll need to input the FQDN (Fully Qualified Domain Name): it will look something like this (based on whatever you input in the step above):
-
-<b>mydomain.com\username</b>
-
-The point here is to make sure you're inputting this as the USERNAME and not as the COMPUTER NAME.
+Root hints allow the DNS to resolve names and addresses that aren't yet in the cache. In Server Manager, you can reach this page from the same Tools menu in the upper right, then click on DNS, then your domain controller and right click "Properties" and find the Root Hints tab.
 </p>
 <br />
 
