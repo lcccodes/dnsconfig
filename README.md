@@ -32,7 +32,7 @@ This is just a few basics about DNS operations, particularly using Windows Serve
 
 </p>
 <p>
-A-records are the trail that gets left behind in the DNS cache after it resolves various addresses. In this sense, it's basically a dictionary of internet addresses. After you visit a site, a record of this resolution or translation process will be produced that will look something like this (with different domain names and IP addresses):
+A-records are the trail that gets left behind in the DNS cache after it resolves various addresses. In this sense, it's basically a dictionary of internet addresses. After you visit a site, a record of this resolution or translation process will be produced that will look something like this (with different domain names and IP addresses). As you can see below, the last line shows the A-record.
 
 ![image](https://github.com/lcccodes/dnsconfig/assets/171904823/90a9598e-2130-4352-bec7-d932b64fa811)
 
